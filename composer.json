@@ -1,0 +1,12 @@
+{
+  "require": {
+    "phpspec/phpspec": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Order\\": "src/Order",
+      "Catalogue\\": "src/Catalogue",
+      "Order\\SpecialOffer\\": "src/Order/SpecialOffer"
+    }
+  }
+}
